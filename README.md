@@ -1,8 +1,8 @@
-# hello-github-webhook-cd
+# hello-github-webhook-app
 
 ## Description
 
-This project contains a Helm chart for Argo CD to deploy [hello-github-webhook](https://github.com/polinchw/hello-github-webhook) to Kubernetes.
+This project contains ArgoCD application Kubernetes objects.
 
 ## Install ArgoCD:
 
