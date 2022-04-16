@@ -17,7 +17,7 @@ spec:
   source:
     repoURL: 'https://github.com/polinchw/hello-github-webhook-cd.git'
     path: hello-github-webhook
-    targetRevision: 42f91e317918f80f3bd49d29820b380ddd2bd9e6
+    targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: hello-github-webhook
