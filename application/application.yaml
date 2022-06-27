@@ -8,7 +8,7 @@ metadata:
   name: hello-github-webhook
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/git-branch: master
+    argocd-image-updater.argoproj.io/git-branch: dev-39
     argocd-image-updater.argoproj.io/image-list: myalias=polinchw/hello-github-webhook:dev-39
     argocd-image-updater.argoproj.io/myalias.update-strategy: digest
     argocd-image-updater.argoproj.io/write-back-method: git:secret:argocd/git-creds
